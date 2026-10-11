@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kwity: paragony i gwarancje</title>
+<meta name="description" content="Kwity pilnują końca gwarancji, terminu zwrotu, kaucji, parkingu i numerka. Zrób zdjęcie paragonu, a przypomnimy, zanim będzie za późno.">
+<style>
+  :root{color-scheme:dark;--bg:#14102E;--surface:rgba(255,255,255,.08);--ink:#FFFFFF;--soft:#B9BDD0;--accent:#C6F24E;--border:rgba(255,255,255,.18);--on:#17132E}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Manrope",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+  body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 90% -5%,rgba(120,80,230,.34),transparent 70%),radial-gradient(60% 45% at -5% 105%,rgba(20,150,140,.26),transparent 70%)}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+  nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:36px;font-weight:800}
+  nav a{color:var(--ink);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--accent)}
+  nav .brand{margin-right:auto;font-size:20px;display:flex;align-items:center;gap:10px}
+  .mark{width:30px;height:30px;border-radius:9px;background:var(--accent);color:var(--on);display:inline-flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;line-height:1}
+  h1{font-size:clamp(30px,7vw,44px);line-height:1.12;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance;color:var(--accent)}
+  h2{font-size:21px;margin:34px 0 8px}
+  p,li{color:var(--ink)}p{margin:0 0 14px}ul{padding-left:22px;margin:0 0 14px}li{margin-bottom:6px}
+  .lead{font-size:19px;color:var(--soft);margin-bottom:26px}
+  .updated{font-size:13px;font-weight:700;color:var(--soft);margin:0 0 24px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px 20px;margin:0 0 20px}
+  .card strong{color:var(--accent)}
+  a{color:var(--accent)}
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;background:var(--accent);color:var(--on);font-weight:800;text-decoration:none}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 22px}
+  .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:0 0 24px}
+  .grid .card{margin:0}.grid h3{margin:0 0 6px;font-size:17px;color:var(--accent)}.grid p{margin:0;color:var(--soft);font-size:15px}
+  details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+  summary{cursor:pointer;font-weight:800}details p{margin:10px 0 0;color:var(--soft)}
+  footer{margin-top:44px;color:var(--soft);font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a class="brand" href="index.html"><span class="mark">K</span>Kwity</a><a href="privacy.html">Prywatność</a><a href="support.html">Wsparcie</a></nav>
+
+  <h1>Wszystko, co traci wartość, pod kontrolą</h1>
+  <p class="lead">Kwity pilnują końca gwarancji, terminu zwrotu, kaucji za butelki, biletu parkingowego i numerka w kolejce. Zrób zdjęcie paragonu, a przypomnimy, zanim będzie za późno.</p>
+  <div class="btns">
+    <a class="btn" href="https://apps.apple.com/app/id6820909795">Pobierz w App Store</a>
+    <a class="btn ghost" href="support.html">Wsparcie</a>
+    <a class="btn ghost" href="privacy.html">Polityka prywatności</a>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Skan paragonu</h3><p>Aparat dokumentów albo zdjęcie z galerii. Sklep, kwota i data odczytują się na telefonie.</p></div>
+    <div class="card"><h3>Gwarancje i zwroty</h3><p>Odliczanie dni, kategorie i lista tego, co kończy się wkrótce.</p></div>
+    <div class="card"><h3>Na chwilę</h3><p>Kaucje, parkingi i numerki z odliczaniem na żywo. Zostają, dopóki sam ich nie wyczyścisz.</p></div>
+    <div class="card"><h3>Kody QR i kreskowe</h3><p>Pokaż kod z biletu jednym dotknięciem. Ekran sam się rozjaśnia, a kod jest narysowany ostro.</p></div>
+    <div class="card"><h3>Przypomnienia</h3><p>Powiadomienie przed końcem terminu, ustawiane osobno dla każdego kwitu.</p></div>
+    <div class="card"><h3>Prywatnie</h3><p>Bez konta i reklam. Kwity i zdjęcia zostają na Twoim telefonie. Blokada Face ID, ciemny i jasny motyw.</p></div>
+  </div>
+  <p class="updated">Po polsku, angielsku, hiszpańsku, włosku, niemiecku, rosyjsku i chińsku. Aplikacja jest darmowa.</p>
+  <footer><span>© 2026 ideaapps.io</span><a href="privacy.html">Polityka prywatności</a><a href="support.html">Wsparcie</a></footer>
+</div>
+</body>
+</html>
