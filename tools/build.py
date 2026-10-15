@@ -3,7 +3,7 @@
 and the stylesheet. Texts live in tools/content_*.py (landing page and support) and tools/privacy/<lang>.html (the privacy policy).
 
 Usage (from the repo root):  python3 tools/build.py [--policies ../kwity-ios/Kwity/Resources]
-With --policies the privacy policies of the languages the app has (pl, en, es, it, de, ru, zh) are re-read from the app's
+With --policies the privacy policies of the languages the app has (all ten) are re-read from the app's
 `<lang>.lproj/PrivacyPolicy.html` first, so the site and the app never say different things.
 """
 import html
@@ -23,7 +23,7 @@ LANGS = [PL, EN, DE, FR, ES, IT, UK, RU, JA, ZH]
 MAIL = "marcin.polak@ideaapps.io"
 FORM = "https://forms.gle/NSWuiSGS5Xyxgx7UA"
 APP_STORE = "https://apps.apple.com/app/id6820909795"
-APP_FOLDER = {"pl": "pl", "en": "en", "es": "es", "it": "it", "de": "de", "ru": "ru", "zh": "zh-Hans"}
+APP_FOLDER = {"pl": "pl", "en": "en", "es": "es", "it": "it", "de": "de", "ru": "ru", "zh": "zh-Hans", "fr": "fr", "uk": "uk", "ja": "ja"}
 
 STYLE = """\
 :root{color-scheme:dark;--bg:#14102E;--surface:rgba(255,255,255,.08);--ink:#FFFFFF;--soft:#B9BDD0;--accent:#C6F24E;--border:rgba(255,255,255,.18);--on:#17132E}

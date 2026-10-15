@@ -19,7 +19,7 @@ PL = dict(
             ("Synchronizacja iCloud (Pro)", "Opcjonalnie, jednorazowy zakup: kwity i zdjęcia na wszystkich Twoich urządzeniach, w Twoim prywatnym iCloud."),
             ("Prywatnie", "Bez konta i reklam. Kwity i zdjęcia zostają na Twoim telefonie albo w Twoim iCloud. Blokada Face ID, ciemny i jasny motyw."),
         ],
-        note="Po polsku, angielsku, hiszpańsku, włosku, niemiecku, rosyjsku i chińsku. Aplikacja jest darmowa, funkcje Pro są opcjonalne.",
+        note="Po polsku, angielsku, hiszpańsku, francusku, włosku, niemiecku, rosyjsku, ukraińsku, japońsku i chińsku. Aplikacja jest darmowa, funkcje Pro są opcjonalne.",
     ),
     support=dict(
         title="Wsparcie | Kwity", description="Pomoc i kontakt w sprawie aplikacji Kwity.",
@@ -60,7 +60,7 @@ EN = dict(
             ("iCloud sync (Pro)", "Optional, a one-time purchase: your receipts and photos on all your devices, in your own private iCloud."),
             ("Private", "No account, no ads. Your receipts and photos stay on your phone or in your own iCloud. Face ID lock, dark and light looks."),
         ],
-        note="Available in English, Polish, Spanish, Italian, German, Russian and Chinese. The app is free; the Pro features are optional.",
+        note="Available in English, Polish, Spanish, French, Italian, German, Russian, Ukrainian, Japanese and Chinese. The app is free; the Pro features are optional.",
     ),
     support=dict(
         title="Support | Kwity", description="Help and contact for the Kwity app.",

@@ -19,7 +19,7 @@ DE = dict(
             ("iCloud-Synchronisierung (Pro)", "Optional, einmaliger Kauf: deine Belege und Fotos auf allen Geräten, in deinem privaten iCloud."),
             ("Privat", "Kein Konto, keine Werbung. Belege und Fotos bleiben auf deinem Telefon oder in deinem iCloud. Face-ID-Sperre, dunkles und helles Design."),
         ],
-        note="Verfügbar auf Deutsch, Englisch, Polnisch, Spanisch, Italienisch, Russisch und Chinesisch. Die App ist kostenlos, die Pro-Funktionen sind optional.",
+        note="Verfügbar auf Deutsch, Englisch, Polnisch, Spanisch, Französisch, Italienisch, Russisch, Ukrainisch, Japanisch und Chinesisch. Die App ist kostenlos, die Pro-Funktionen sind optional.",
     ),
     support=dict(
         title="Support | Kwity", description="Hilfe und Kontakt zur App Kwity.",
@@ -60,7 +60,7 @@ FR = dict(
             ("Synchronisation iCloud (Pro)", "Facultative, achat unique : vos reçus et photos sur tous vos appareils, dans votre iCloud privé."),
             ("Privé", "Pas de compte, pas de publicité. Vos reçus et photos restent sur votre téléphone ou dans votre iCloud. Verrouillage Face ID, apparence sombre et claire."),
         ],
-        note="Disponible en anglais, polonais, espagnol, italien, allemand, russe et chinois. L'app est gratuite, les fonctions Pro sont facultatives.",
+        note="Disponible en français, anglais, polonais, espagnol, italien, allemand, russe, ukrainien, japonais et chinois. L'app est gratuite, les fonctions Pro sont facultatives.",
     ),
     support=dict(
         title="Assistance | Kwity", description="Aide et contact pour l'application Kwity.",
@@ -101,7 +101,7 @@ ES = dict(
             ("Sincronización con iCloud (Pro)", "Opcional, compra única: tus tickets y fotos en todos tus dispositivos, en tu iCloud privado."),
             ("Privado", "Sin cuenta ni anuncios. Tus tickets y fotos se quedan en tu teléfono o en tu iCloud. Bloqueo con Face ID, modo oscuro y claro."),
         ],
-        note="Disponible en español, inglés, polaco, italiano, alemán, ruso y chino. La app es gratuita; las funciones Pro son opcionales.",
+        note="Disponible en español, inglés, polaco, francés, italiano, alemán, ruso, ucraniano, japonés y chino. La app es gratuita; las funciones Pro son opcionales.",
     ),
     support=dict(
         title="Soporte | Kwity", description="Ayuda y contacto sobre la app Kwity.",

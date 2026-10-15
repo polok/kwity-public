@@ -19,7 +19,7 @@ IT = dict(
             ("Sincronizzazione iCloud (Pro)", "Opzionale, acquisto singolo: scontrini e foto su tutti i tuoi dispositivi, nel tuo iCloud privato."),
             ("Privato", "Nessun account, nessuna pubblicità. Scontrini e foto restano sul telefono o nel tuo iCloud. Blocco con Face ID, aspetto scuro e chiaro."),
         ],
-        note="Disponibile in italiano, inglese, polacco, spagnolo, tedesco, russo e cinese. L'app è gratuita; le funzioni Pro sono opzionali.",
+        note="Disponibile in italiano, inglese, polacco, spagnolo, francese, tedesco, russo, ucraino, giapponese e cinese. L'app è gratuita; le funzioni Pro sono opzionali.",
     ),
     support=dict(
         title="Assistenza | Kwity", description="Aiuto e contatti per l'app Kwity.",
@@ -60,7 +60,7 @@ UK = dict(
             ("Синхронізація iCloud (Pro)", "Необов'язково, одноразова покупка: ваші чеки й фото на всіх пристроях, у вашому приватному iCloud."),
             ("Приватно", "Без акаунта й реклами. Чеки й фото залишаються на телефоні або у вашому iCloud. Блокування через Face ID, темна й світла тема."),
         ],
-        note="Доступно польською, англійською, іспанською, італійською, німецькою, російською та китайською. Застосунок безкоштовний, функції Pro необов'язкові.",
+        note="Доступно українською, польською, англійською, іспанською, французькою, італійською, німецькою, російською, японською та китайською. Застосунок безкоштовний, функції Pro необов'язкові.",
     ),
     support=dict(
         title="Підтримка | Kwity", description="Допомога й контакти щодо застосунку Kwity.",
@@ -101,7 +101,7 @@ RU = dict(
             ("Синхронизация iCloud (Pro)", "Необязательно, разовая покупка: ваши чеки и фото на всех устройствах, в вашем личном iCloud."),
             ("Приватно", "Без аккаунта и рекламы. Чеки и фото остаются на телефоне или в вашем iCloud. Блокировка по Face ID, тёмная и светлая тема."),
         ],
-        note="Доступно на русском, английском, польском, испанском, итальянском, немецком и китайском. Приложение бесплатное, функции Pro необязательны.",
+        note="Доступно на русском, английском, польском, испанском, французском, итальянском, немецком, украинском, японском и китайском. Приложение бесплатное, функции Pro необязательны.",
     ),
     support=dict(
         title="Поддержка | Kwity", description="Помощь и контакты по приложению Kwity.",
